@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log</title>
-    <link rel="stylesheet" href="/css-js.login/log.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log</title>
+  <link rel="stylesheet" href="/CSS/log.css" />
 </head>
 <body>
-    <div class="log">
-        <form action="#">
-            <h1>LOGIN</h1>
-            <div class="user">
-                <label for="login">User</label>
-                <input type="text" placeholder="user">
-            </div>
-            <div>
-                <label for="pas">Password</label>
-                <input type="password" placeholder="password">
-            </div>
-            <button type="submit">Start</button>
-        </form>
-    </div>
+  <div class="log">
+    <form action="#" id="form">
+      <h1>LOGIN</h1>
+      <div class="user">
+        <label for="user">User</label>
+        <input type="text" placeholder="user" id="user" />
+      </div>
+      <div>
+        <label for="pas">Password</label>
+        <input type="password" placeholder="password" id="pas" />
+      </div>
+      <button type="submit">Start</button>
+    </form>
+    <p id="error" style="color: red; font-weight: bold;"></p>
+  </div>
+
+  <script src="JS/login.js"></script>
 </body>
 </html>
